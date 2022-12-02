@@ -1,0 +1,20 @@
+{
+    "name": "vinson/booking",
+    "description": "测试开发我自己的第一个包",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vinson\\Booking\\": "src/",
+            "Flower\\Rose\\": "/src/flower/Rose"
+        }
+    },
+    "authors": [
+        {
+            "name": "vinson",
+            "email": "inkke99@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
